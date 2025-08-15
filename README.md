@@ -32,21 +32,21 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-###2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```bash
 npm install
 
-###3️⃣ Add Environment Variables
+### 3️⃣ Add Environment Variables
 
 Create a .env file in the root of your project and add:
 ```env
 VITE_GROQ_API_KEY=your_api_key_here
 
-###4️⃣ Run the Development Server
+### 4️⃣ Run the Development Server
 ```bash
 npm run dev
 
-##📄 Tech Stack
+## 📄 Tech Stack
 
 Frontend: React (Vite)
 Styling: CSS
