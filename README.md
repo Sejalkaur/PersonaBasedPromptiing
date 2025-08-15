@@ -16,10 +16,11 @@ This project allows users to choose from different AI mentors (personas) and cha
 ## 📷 Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home.png) <!-- Replace with actual path after adding images -->
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/3723a7c3-5619-4b63-b50f-f5549b727bd2" />
+
 
 ### Chat Page
-![Chat Page](./screenshots/chat.png) <!-- Replace with actual path after adding images -->
+<img width="1280" height="800" alt="image" src="https://github.com/user-attachments/assets/d3c2d9f0-0de0-4716-9a85-2ac0bfba6c70" />
 
 ---
 
@@ -31,3 +32,22 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+###2️⃣ Install Dependencies
+```bash
+npm install
+
+###3️⃣ Add Environment Variables
+
+Create a .env file in the root of your project and add:
+```env
+VITE_GROQ_API_KEY=your_api_key_here
+
+###4️⃣ Run the Development Server
+```bash
+npm run dev
+
+##📄 Tech Stack
+
+Frontend: React (Vite)
+Styling: CSS
+API: Groq LLM API
