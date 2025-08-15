@@ -1,12 +1,33 @@
-# React + Vite
+# AI Mentor Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **persona-based AI chatbot** built using **React + Vite**, integrated with the **Groq API** for LLM responses.  
+This project allows users to choose from different AI mentors (personas) and chat in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Multiple Personas** (e.g., Hitesh Choudhary, Piyush Garg)
+- **Real-time Chat** with AI
+- **Groq API Integration**
+- **Responsive UI**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Screenshots
+
+### Home Page
+![Home Page](./screenshots/home.png) <!-- Replace with actual path after adding images -->
+
+### Chat Page
+![Chat Page](./screenshots/chat.png) <!-- Replace with actual path after adding images -->
+
+---
+
+## 🛠️ Setup Instructions
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
